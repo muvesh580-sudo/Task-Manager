@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+
+    <div class="container">
+
+        <h1>TASK MANAGER</h1>
+        <p>Manage your tasks efficiently</p>
+        <button id ="theme-toggle">Dark Mode</button>
+
+        <form id="task-form">
+
+            <input 
+                type="text" 
+                id="task-input" 
+                placeholder="Enter a new task..."
+            >
+
+            <select id="priority-input">
+                <option value="low">low</option>
+                <option value="medium" selected>medium</option>
+                <option value="high">high</option>
+            </select>
+
+            <select id="category-input">
+                <option value="study">Study</option>
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                <option value="other">Other</option>
+            </select>
+
+           <div class="date-field">
+                <span>Date</span>
+                <input type="date" id="due-date-input">
+            </div>
+
+            <button type="submit">Add Task</button>
+
+        </form>
+
+    <div class="search-box">
+        <input 
+        type="text" 
+        id="search-input" 
+        placeholder="Search Tasks..."
+        >
+    </div>
+
+    <div class="filters">
+        <button id="all-filter">All</button>
+        <button id="active-filter">Active</button>
+        <button id="completed-filter">Completed</button>
+    </div>
+
+        <div class="task-info">
+            <span>Total Tasks: <strong id="total-tasks">0</strong></span>
+            <span>Completed: <strong id="completed-tasks">0</strong></span>
+        </div>
+
+        <ul id="task-list">
+            <!-- Tasks will appear here -->
+        </ul>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
