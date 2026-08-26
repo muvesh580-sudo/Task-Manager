@@ -60,3 +60,5 @@ Through this project, I practiced:
 👨‍💻 Author
 Mohd Uvesh
 GitHub: muvesh580-sudo
+## 🚀 Live Demo
+[View Live Demo](https://muvesh580-sudo.github.io/task-manager/)
