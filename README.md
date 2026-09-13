@@ -1,8 +1,14 @@
-# Task Manager
+# 📝 Task Manager
 
-A modern, responsive Task Manager built with HTML, CSS, and JavaScript.
+A modern, responsive task management web app built with HTML, CSS, and JavaScript.
 
-## 🚀 Features
+## 🚀 Live Demo
+
+**Vercel:** https://task-manager-snowy-seven-96.vercel.app/
+
+**GitHub Pages:** https://muvesh580-sudo.github.io/Task-Manager/
+
+## ✨ Features
 
 - ✅ Add tasks
 - ✏️ Edit tasks
@@ -31,14 +37,14 @@ A modern, responsive Task Manager built with HTML, CSS, and JavaScript.
 ## 📂 Project Structure
 
 ```text
-task-manager/
+Task-Manager/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 
-💡 What I Learned
+🧠 What I Learned
 Through this project, I practiced:
 - JavaScript DOM manipulation
 - Event listeners
@@ -51,7 +57,7 @@ Through this project, I practiced:
 - Date handling
 - Responsive CSS
 - Dark mode implementation
-🎯 Future Improvements
+🔮 Future Improvements
 - Drag and drop task organization
 - Task reminders
 - Better animations
@@ -59,7 +65,3 @@ Through this project, I practiced:
 - User authentication
 👨‍💻 Author
 Mohd Uvesh
-GitHub: muvesh580-sudo
-## 🚀 Live Demo
-
-[View Live Demo](https://muvesh580-sudo.github.io/Task-Manager/)
